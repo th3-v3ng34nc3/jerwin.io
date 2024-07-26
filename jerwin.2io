@@ -1,0 +1,10 @@
+docker run --rm -it \
+    -e nessus_url=https://cloud.tenable.com \
+    -e folder_id=7 \
+    -e nessus_access_key=20ff21321aadcf3b28eee03a8923d08cfe0504be7c2cb6de9329e0e03a42a040  \
+    -e nessus_secret_key=e17090e6d15282a6695710d4b3a3a7acb61696322f34b26e15294c0ffadcfaf9 \
+    -e CSPM_BASE_URL=https://cspm.demo.accuknox.com \
+    -e label=NESSUS \
+    -e internal_tenant_id=3268 \
+    -e ARTIFACT_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM1NTQ5NTQ0LCJqdGkiOiJhNmIzYmM2M2QyNWQ0ZDk5YjA0YjExOWRmM2M1NjMwMSIsImlzcyI6ImNzcG0uZGVtby5hY2N1a25veC5jb20ifQ.QDFdIRpTSGNUfm00fbVjMUhE6IKJoOYdRE7QfBEwpWFSCi-Lh65REvnBtujAmahziN869E1u0TRhZvLLEsbRhKnpI4IrorwssQp8oLSlDmD_B8IaaixZmtyH1OYv-IVx1Coot2nNBVj5oxwlpw62o7bacK1bDcvZ4wjmIbpeFNfA0qyl2sraOk9iUt6G2B0weeM86RmRoU5i8o4LgS0JLQDn9vt9JKLR94tjQbL81_g5QO6sp4Brfxj_qbdvYErmlM6_HZWr5PBfgWu5PpxvGMmpI1j_7QR68PgmxDAEQmUQp0b_HeAGerfy0WkgGINQfKg3fo89cRl_vl0ua-O7rQ \
+    accuknox/nessus:v1
