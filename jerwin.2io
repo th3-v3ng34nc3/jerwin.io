@@ -1,8 +1,8 @@
 docker run --rm -it \
     -e nessus_url=10.21.0.5:8834 \
     -e folder_id=7 \
-    -e nessus_access_key=20ff21321aadcf3b28eee03a8923d08cfe0504be7c2cb6de9329e0e03a42a040  \
-    -e nessus_secret_key=e17090e6d15282a6695710d4b3a3a7acb61696322f34b26e15294c0ffadcfaf9 \
+    -e nessus_access_key=56018d42c7c188164200e856da1e842f784ee9cee226aeb3026922b35f98b460  \
+    -e nessus_secret_key=c5323b93a7aa709fda21253df214b880b1ce258b0dc7f9a933900d73b2bc80bd \
     -e CSPM_BASE_URL=https://cspm.demo.accuknox.com \
     -e label=NESSUS \
     -e internal_tenant_id=3268 \
